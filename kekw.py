@@ -124,8 +124,7 @@ class MyClient(fortnitepy.Client):
         @client.event
         async def event_friend_request(request):
           await request.accept()
-status="made by quax https://discord.gg/WNsjn6tDyw",
-    platform=fortnitepy.Platform("PS5"),
+
 
 c = MyClient()
 c.run()
