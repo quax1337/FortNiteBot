@@ -1,5 +1,5 @@
 # FortNiteBot
-a open source fortnite bot made in fnbr.js 
+a open source fortnite bot made in ffortnitepy
 features:
 all skins including leaked
 all backblings
