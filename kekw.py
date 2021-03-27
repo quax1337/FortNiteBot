@@ -107,11 +107,11 @@ class MyClient(fortnitepy.Client):
                 run_for=10
             )
 
-             @client.event
+        @client.event
         async def event_party_member_join(member: fortnitepy.PartyMember) -> None:
-            await client.party.me.clear_emote()
-            await client.party.me.set_emote(asset=eidjson)
-            await client.party.send(f"Hey {member.display_name}\n this bot was made by quax\nhttps://discord.gg/WNsjn6tDyw")
+         await client.party.me.clear_emote()
+        await client.party.me.set_emote(asset=eidjson)
+      
 
 
 
